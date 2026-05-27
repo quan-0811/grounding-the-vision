@@ -1,0 +1,7 @@
+{
+  "prompts": ["Describe this image in detail."],
+  "responses": [
+    [0, 397133, "A man is riding a bicycle on a street."],
+    [0, 37777, "A dog is sitting on a couch."]
+  ]
+}

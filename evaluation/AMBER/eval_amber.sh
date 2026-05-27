@@ -1,0 +1,1 @@
+python inference.py --inference_data path/to/your/inference/file --evaluation_type g

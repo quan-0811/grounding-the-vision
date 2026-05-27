@@ -1,0 +1,14 @@
+[
+	{
+		"id": 1,
+		"response": "The description of AMBER_1.jpg from MLLM."
+	},
+    {
+        "id": 2,
+        "response": "The description of AMBER_2.jpg from MLLM."
+    },	
+	{
+		"id": 1004,
+		"response": "The description of AMBER_1004.jpg from MLLM."
+	}
+]
