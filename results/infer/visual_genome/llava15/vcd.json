@@ -1,0 +1,502 @@
+[
+  {
+    "image_id": 1,
+    "path": "../data/visual_genome/images2/VG_100K_2/1.jpg",
+    "text": "The image depicts two men engaged in a conversation on a brick sidewalk. They are standing close to each other, with one man on the left and the other on the right. The sidewalk is lined with trees, providing a pleasant atmosphere for their conversation.\n\nIn the background, there are several vehicles parked or driving along the street. These include cars, a truck, and a bicycle. The presence of these vehicles suggests that the location is a busy urban area."
+  },
+  {
+    "image_id": 2,
+    "path": "../data/visual_genome/images/VG_100K/2.jpg",
+    "text": "The image depicts a man walking down a sidewalk in a city, wearing a backpack. He is crossing the street at a crosswalk, and there are multiple cars parked or driving nearby. A traffic light is visible in the scene, indicating that the man is crossing the street safely.\n\nIn addition to the man, there are several other people in the scene, some of whom are walking or standing on the sidewalk. A bench can be seen further down the sidewalk, providing a place for pedestrians to rest."
+  },
+  {
+    "image_id": 3,
+    "path": "../data/visual_genome/images/VG_100K/3.jpg",
+    "text": "The image depicts a well-equipped office space with a desk featuring a desktop computer, a keyboard, and a mouse. There are two TVs in the room, one on the left side and the other on the right side. \n\nIn addition to the computer setup, there are several books scattered around the room, with some placed on the desk and others on the floor. A handbag can be seen on the right side of the room, and a backpack is located near the center of the scene. A TV remote is also present in the room, placed on the desk."
+  },
+  {
+    "image_id": 4,
+    "path": "../data/visual_genome/images/VG_100K/4.jpg",
+    "text": "The image features a cozy living room with a wooden couch and a wooden dining table. A brown teddy bear is sitting on the couch, adding a touch of warmth to the room. The teddy bear is wearing a maroon shirt, making it stand out.\n\nThe living room is adorned with a few decorative elements, such as a vase placed on a surface and a clock hanging on the wall. The dining table is surrounded by chairs, creating a comfortable dining area. A window can be seen in the room, allowing natural light to fill the space."
+  },
+  {
+    "image_id": 5,
+    "path": "../data/visual_genome/images/VG_100K/5.jpg",
+    "text": "The image depicts a small office space with a desk and two chairs. On the desk, there is a computer monitor, a keyboard, and a mouse. A printer is also present on the desk, along with a stack of books. \n\nIn addition to the desk setup, there are several books scattered around the room, some on the floor and others on the walls. A TV is mounted on the wall, and a refrigerator can be seen in the background. The room also features a radiator, which is likely used to maintain a comfortable temperature in the space."
+  },
+  {
+    "image_id": 6,
+    "path": "../data/visual_genome/images/VG_100K/6.jpg",
+    "text": "The image features a kitchen counter with a variety of items on it. There is a bottle of water, an apple, and a fork placed on the counter. A bowl is also present, along with a spoon nearby. The kitchen counter is surrounded by chairs, with one on the left side and another on the right side.\n\nIn the background, there are several books scattered around, possibly indicating a reading or studying area. The overall scene gives the impression of a casual and comfortable environment."
+  },
+  {
+    "image_id": 7,
+    "path": "../data/visual_genome/images/VG_100K/7.jpg",
+    "text": "The image depicts a cluttered office desk with a computer monitor, keyboard, and mouse. The desk is situated next to a window, providing natural light to the workspace. There are several books scattered around the desk, some of which are open, indicating that the person working at the desk is likely engaged in research or studying.\n\nIn addition to the books, there are multiple bottles placed on the desk, possibly containing beverages or other items. A cell phone can be seen on the desk, and a person is visible in the background, possibly observing the workspace or waiting for their turn to use the desk."
+  },
+  {
+    "image_id": 8,
+    "path": "../data/visual_genome/images/VG_100K/8.jpg",
+    "text": "The image features a man sitting at a desk, working on a computer. He is typing on a white keyboard, which is placed in front of him. The computer screen is located to the left of the keyboard, displaying text or images.\n\nThe desk is cluttered with various items, including multiple books scattered around the workspace. There are also two cups, one on the right side of the desk and the other closer to the center. A handbag can be seen placed on the right side of the desk, and a backpack is located near the left edge of the image."
+  },
+  {
+    "image_id": 9,
+    "path": "../data/visual_genome/images/VG_100K/9.jpg",
+    "text": "The image depicts a large office space with multiple desks and computers. There are several chairs placed around the desks, and a total of four computer monitors are visible on the desks. \n\nIn addition to the computers, there are numerous books scattered throughout the office, indicating a busy work environment. A few bottles can be seen on the desks, possibly containing beverages for the employees. \n\nThe office also features a window, allowing natural light to enter the space. Overall, the scene conveys a bustling office environment with a focus on technology and productivity."
+  },
+  {
+    "image_id": 10,
+    "path": "../data/visual_genome/images/VG_100K/10.jpg",
+    "text": "The image depicts a man sitting at a desk in a room, working on a computer. The desk is equipped with a keyboard and a mouse, and there is a TV mounted on the wall above the desk. The man appears to be focused on his work, possibly using a computer monitor that is not visible in the image.\n\nThe room also features a bookshelf filled with various books, indicating that the man might be engaged in research or studying. A bottle can be seen on the desk, possibly containing a beverage to help the man stay focused and energized during his work."
+  },
+  {
+    "image_id": 11,
+    "path": "../data/visual_genome/images/VG_100K/11.jpg",
+    "text": "The image depicts an office cubicle with a gray chair positioned in front of a desk. The desk is equipped with a computer, keyboard, and mouse. There is also a TV mounted on the wall above the desk.\n\nIn addition to the computer setup, the cubicle contains a bowl, a cup, and a bottle placed on the desk. A book can be seen on the desk as well. The office cubicle appears to be a comfortable and functional workspace."
+  },
+  {
+    "image_id": 12,
+    "path": "../data/visual_genome/images/VG_100K/12.jpg",
+    "text": "The image features a cluttered office desk with two computer monitors and a keyboard. The desk is covered with various items, including a mouse, a cup, a cell phone, and a book. There are also several pink sticky notes scattered across the desk, likely for reminders or important information.\n\nIn addition to the desk items, there is a chair positioned in front of the desk, ready for someone to sit and work. The overall scene gives the impression of a busy workspace with a focus on technology and organization."
+  },
+  {
+    "image_id": 13,
+    "path": "../data/visual_genome/images/VG_100K/13.jpg",
+    "text": "The image features a well-organized office desk with a desktop computer, keyboard, and mouse. The computer monitor is positioned towards the left side of the desk, while the keyboard is placed in the center. A computer mouse can be found on the right side of the desk.\n\nIn addition to the computer setup, there are several books scattered around the desk. Some books are placed near the keyboard, while others are located on the right side of the desk. A TV is also present in the background, slightly to the left of the desk.\n\nA person can be seen in the background, likely working or attending to other tasks in the office."
+  },
+  {
+    "image_id": 14,
+    "path": "../data/visual_genome/images/VG_100K/14.jpg",
+    "text": "The image features a wooden desk with a computer monitor, keyboard, and mouse on it. The desk is cluttered with various items, including a bottle, a cup, and a potted plant. There are also several books scattered around the desk, adding to the cluttered appearance.\n\nIn the background, there are multiple people, possibly indicating a busy work environment or a shared space. The presence of the bottle and cup suggests that the desk might be used for work or leisure activities."
+  },
+  {
+    "image_id": 15,
+    "path": "../data/visual_genome/images/VG_100K/15.jpg",
+    "text": "The image features a white computer monitor sitting on a desk. The monitor is positioned in the center of the desk, and a keyboard is placed in front of it. A mouse can be seen on the right side of the desk, close to the edge. \n\nThe desk appears to be cluttered with papers, with several documents scattered around the monitor and keyboard. The overall scene suggests a workspace or home office setup."
+  },
+  {
+    "image_id": 16,
+    "path": "../data/visual_genome/images/VG_100K/16.jpg",
+    "text": "The image depicts a group of four people walking down a sidewalk, likely a family. They are walking together, with two adults and two children. The group appears to be enjoying their time together, possibly exploring the area or going for a walk.\n\nThere are several cars parked along the street, with one car on the left side of the scene and two cars on the right side. Additionally, there are two handbags visible in the scene, one near the center and the other closer to the right side. A fire hydrant can also be seen on the left side of the sidewalk."
+  },
+  {
+    "image_id": 17,
+    "path": "../data/visual_genome/images/VG_100K/17.jpg",
+    "text": "The image features a well-equipped home office with a large flat screen TV mounted on the wall. The TV is positioned above a desk, which is surrounded by various electronic devices, including two laptops and a desktop computer. There are also two keyboards and two mice on the desk, indicating a multi-device setup.\n\nIn addition to the electronic devices, the office is adorned with several books and pictures, creating a cozy and functional workspace. A chair is placed in front of the desk, providing a comfortable seating area for the user."
+  },
+  {
+    "image_id": 18,
+    "path": "../data/visual_genome/images/VG_100K/18.jpg",
+    "text": "The image features a man sitting at a desk in a room, working on a computer. The desk is equipped with a keyboard, a mouse, and a cell phone. There are several books scattered around the room, some on the desk and others on the floor. A soda can is also present on the desk, adding to the casual atmosphere of the workspace.\n\nIn addition to the man, there are two other people in the room, one standing near the left side and the other on the right side. A TV is mounted on the wall, and a bookshelf filled with books can be seen in the background."
+  },
+  {
+    "image_id": 19,
+    "path": "../data/visual_genome/images/VG_100K/19.jpg",
+    "text": "The image features a large room with a long table filled with various computer equipment. There are four desktop computers placed on the table, with two of them positioned closer to the left side and the other two on the right side. \n\nIn addition to the computers, there are two keyboards on the table, one near the left side and the other closer to the right side. A computer mouse can be seen on the left side of the table. \n\nTwo chairs are also present in the room, one located near the left side of the table and the other on the right side. The room appears to be a workspace or a computer lab, with the equipment set up for use."
+  },
+  {
+    "image_id": 20,
+    "path": "../data/visual_genome/images/VG_100K/20.jpg",
+    "text": "The image features a man sitting at a desk in an office setting. He is working on a computer, which is placed on the desk in front of him. The man is using a keyboard and a mouse to navigate the computer.\n\nThe office space is filled with various items, including multiple books scattered around the room. Some books are placed on the desk, while others are located on different surfaces. There is also a cup situated on a surface near the right side of the room."
+  },
+  {
+    "image_id": 21,
+    "path": "../data/visual_genome/images/VG_100K/21.jpg",
+    "text": "The image features a woman and a young girl sitting together on a couch, engaging in a shared activity. The woman is pointing at a book, which is open in front of them. The girl appears to be attentive and focused on the book, possibly learning or discussing the content.\n\nThe couch occupies a significant portion of the scene, with the woman and the girl sitting comfortably on it. The book is placed prominently in the foreground, drawing the viewer's attention to the shared experience between the two individuals."
+  },
+  {
+    "image_id": 22,
+    "path": "../data/visual_genome/images/VG_100K/22.jpg",
+    "text": "The image depicts a green and white tram traveling down a busy city street. The tram is positioned in the middle of the street, surrounded by various vehicles. There are multiple cars and a truck in the scene, with some cars located in front of the tram and others behind it. Traffic lights can be seen at different points along the street, ensuring the safe flow of traffic.\n\nIn addition to the vehicles, there are several pedestrians visible on the sidewalks, going about their daily activities. The scene captures the hustle and bustle of a typical urban environment."
+  },
+  {
+    "image_id": 23,
+    "path": "../data/visual_genome/images/VG_100K/23.jpg",
+    "text": "The image depicts a busy street scene with several cars parked along the side of the road. A black car is parked next to a pharmacy, and a woman is standing next to it. There are multiple people in the scene, some of whom are standing near the parked cars, while others are walking or standing further away.\n\nIn addition to the cars, there are two trucks visible in the scene, one located near the center of the image and the other towards the right side. A handbag can be seen placed on the ground near the left side of the image."
+  },
+  {
+    "image_id": 24,
+    "path": "../data/visual_genome/images/VG_100K/24.jpg",
+    "text": "The image depicts a narrow city street with a red car parked on the side of the road. The car is positioned between two trees, and there are several bicycles parked along the street. In addition to the bicycles, there are also a few motorcycles parked on the side of the road.\n\nThere are several people walking along the street, with some of them carrying handbags. A traffic light is visible in the middle of the scene, indicating that the street is a busy urban area."
+  },
+  {
+    "image_id": 25,
+    "path": "../data/visual_genome/images/VG_100K/25.jpg",
+    "text": "The image depicts a lively outdoor dining area with several people sitting and standing around. There are numerous chairs and dining tables spread throughout the scene, providing ample seating for the guests. Some people are sitting at the tables, while others are standing or walking around the area.\n\nA baby stroller is parked near the center of the scene, indicating that a family is present. A car can be seen in the background, parked on the right side of the image. The atmosphere appears to be relaxed and social, with people enjoying their time at the outdoor cafe."
+  },
+  {
+    "image_id": 26,
+    "path": "../data/visual_genome/images/VG_100K/26.jpg",
+    "text": "The image depicts a busy city street filled with people walking and standing on the sidewalk. There are numerous individuals scattered throughout the scene, some closer to the foreground and others further back. \n\nThe street is bustling with various vehicles, including cars, buses, and trucks. Cars can be seen in different positions along the street, while buses and trucks are more concentrated towards the center and right side of the scene.\n\nThe cityscape features tall buildings on both sides of the street, creating an urban atmosphere. The combination of people, vehicles, and buildings creates a lively and dynamic city environment."
+  },
+  {
+    "image_id": 27,
+    "path": "../data/visual_genome/images/VG_100K/27.jpg",
+    "text": "The image features a large, empty conference room with a wooden dining table in the center. The table is surrounded by six chairs, with each chair placed around the table. The room appears to be empty, with no people or objects occupying the space. The chairs are arranged in a semi-circle around the table, creating a comfortable and inviting atmosphere for meetings or gatherings."
+  },
+  {
+    "image_id": 28,
+    "path": "../data/visual_genome/images/VG_100K/28.jpg",
+    "text": "The image features a cozy living room with a couch and a chair placed in the center of the space. The couch is adorned with a bowl of flowers, adding a touch of color and freshness to the room. There are several books scattered around the room, indicating a comfortable and relaxing atmosphere.\n\nIn addition to the couch and chair, there are two vases in the room, one on the left side and the other on the right side. A potted plant is also present, situated near the window, which allows natural light to fill the room. The combination of the couch, chair, flowers, books, and decorative elements creates a welcoming and inviting living space."
+  },
+  {
+    "image_id": 29,
+    "path": "../data/visual_genome/images/VG_100K/29.jpg",
+    "text": "The image features two women standing on a sandy beach, overlooking a small white and blue boat that is washed up on the shore. The boat appears to be a small sailboat, possibly damaged or abandoned. The women seem to be observing the boat and the surrounding area.\n\nIn the background, there is a dog standing near the women, possibly belonging to one of them. The scene captures the essence of a beach day, with the women enjoying the view and the dog accompanying them."
+  },
+  {
+    "image_id": 30,
+    "path": "../data/visual_genome/images/VG_100K/30.jpg",
+    "text": "The image depicts a small hotel room with a television sitting on top of a dresser. The room features two chairs, one located near the left side of the room and the other closer to the center. A dining table is situated in the middle of the room, with a notebook and a remote placed on it.\n\nThere are two suitcases in the room, one located near the left side and the other closer to the right side. A backpack can also be seen on the left side of the room. Additionally, there are two books in the room, one on the dining table and the other on the left side."
+  },
+  {
+    "image_id": 31,
+    "path": "../data/visual_genome/images/VG_100K/31.jpg",
+    "text": "The image showcases a well-organized kitchen with wooden cabinets and a sink. The sink is located in the center of the kitchen, surrounded by various appliances and items. Above the sink, there is a microwave placed on a shelf, and a toaster is situated nearby. \n\nIn addition to the main appliances, there are several bowls placed around the kitchen, with one near the sink and others on the countertops. A vase can be seen on the left side of the kitchen, adding a decorative touch to the space. A potted plant is also present, providing a touch of greenery to the room."
+  },
+  {
+    "image_id": 32,
+    "path": "../data/visual_genome/images/VG_100K/32.jpg",
+    "text": "The image showcases a beautiful kitchen with wooden cabinets and granite countertops. The kitchen is well-equipped with various appliances, including a white dishwasher, a refrigerator, and an oven. The countertops are adorned with a variety of utensils, such as knives, spoons, and bowls.\n\nThere are numerous bowls placed throughout the kitchen, with some on the countertops and others in the cabinets. A few cups can also be seen on the countertops. The kitchen is further enhanced by the presence of a bookshelf filled with books, adding a touch of personalization and coziness to the space."
+  },
+  {
+    "image_id": 33,
+    "path": "../data/visual_genome/images/VG_100K/33.jpg",
+    "text": "The image features a cozy living room with wooden floors and a fireplace. The room is furnished with a couch and a chair, providing ample seating for relaxation. There are several books scattered throughout the room, indicating a love for reading.\n\nIn addition to the seating, the living room also has a dining table with a few cups and bowls placed on it. A vase can be seen on the table, adding a decorative touch to the space. The room is filled with natural light, creating a warm and inviting atmosphere."
+  },
+  {
+    "image_id": 34,
+    "path": "../data/visual_genome/images/VG_100K/34.jpg",
+    "text": "The image features a well-organized home office setup. The desk is equipped with a computer monitor, keyboard, and mouse, all placed neatly on the desk. A telephone is also present on the desk, providing easy communication. \n\nIn addition to the computer setup, there are several books scattered around the desk, indicating a focus on reading and learning. A chair is positioned in front of the desk, providing a comfortable seating area for working or studying. A TV is also visible in the room, adding to the overall ambiance of the home office."
+  },
+  {
+    "image_id": 35,
+    "path": "../data/visual_genome/images/VG_100K/35.jpg",
+    "text": "The image showcases a large, well-lit office space with a clean and organized appearance. The office is equipped with a wooden desk, surrounded by four chairs, two on each side. The chairs are arranged in a way that allows for comfortable seating and easy access to the desk.\n\nIn addition to the desk and chairs, the office is filled with various books and papers, indicating a busy work environment. There are multiple books scattered throughout the space, with some placed on the desk and others on the floor. A computer mouse can also be seen on the desk, further emphasizing the office's functionality."
+  },
+  {
+    "image_id": 36,
+    "path": "../data/visual_genome/images/VG_100K/36.jpg",
+    "text": "The image showcases a beautifully designed kitchen with a variety of appliances and decorative elements. The kitchen features a white stove top oven, a sink, and a refrigerator. There is a dining table in the room, surrounded by chairs. \n\nThe kitchen is adorned with several potted plants, vases, and flowers, creating a warm and inviting atmosphere. The plants are placed throughout the room, with some near the sink, others on the countertops, and a few on the dining table. The vases are also scattered around the kitchen, adding to the overall aesthetic.\n\nIn addition to the plants and vases, there are several bottles placed around the kitchen, possibly containing cooking ingredients or beverages. The combination of these elements creates a cozy and functional space for cooking and dining."
+  },
+  {
+    "image_id": 37,
+    "path": "../data/visual_genome/images/VG_100K/37.jpg",
+    "text": "The image features a cozy living room with a large white couch as the main focal point. The couch is adorned with numerous decorative pillows, creating a comfortable and inviting atmosphere. \n\nIn addition to the couch, there is a chair placed in the room, and a potted plant can be seen in the background, adding a touch of greenery to the space. A collection of books is scattered throughout the room, indicating a love for reading or a well-read household. A vase is also present, further enhancing the room's aesthetic appeal."
+  },
+  {
+    "image_id": 38,
+    "path": "../data/visual_genome/images/VG_100K/38.jpg",
+    "text": "The image features an outdoor dining area with a table set for a meal. The table is adorned with a flowery tablecloth and is surrounded by green chairs. There are wine glasses and a vase placed on the table, adding to the elegant atmosphere.\n\nIn the background, there is a fireplace, which adds warmth and ambiance to the setting. The outdoor dining area is situated near a building, and there are potted plants nearby, enhancing the overall aesthetic of the scene."
+  },
+  {
+    "image_id": 39,
+    "path": "../data/visual_genome/images/VG_100K/39.jpg",
+    "text": "The image features a dining room with a wooden dining table surrounded by four chairs. The table is set with various items, including cups, bowls, and a vase. There are also fruits such as apples and oranges placed on the table. \n\nIn addition to the tableware, there are two cups, one near the center of the table and the other closer to the edge. A bowl is located near the center of the table, and a vase is placed on the table as well. The room is well-lit, creating a pleasant atmosphere for dining."
+  },
+  {
+    "image_id": 40,
+    "path": "../data/visual_genome/images/VG_100K/40.jpg",
+    "text": "The image features a cozy living room with a vase filled with yellow flowers placed on a table. The table is surrounded by several chairs, with one chair positioned on the left side, another on the right side, and a third chair located in the background. \n\nIn addition to the vase of flowers, the room is adorned with numerous books scattered throughout the space. Some books are placed on the table, while others are found on the floor or on the chairs. The combination of the flowers, chairs, and books creates a warm and inviting atmosphere in the living room."
+  },
+  {
+    "image_id": 41,
+    "path": "../data/visual_genome/images/VG_100K/41.jpg",
+    "text": "The image features a kitchen counter with two microwaves placed on it. One microwave is positioned towards the left side of the counter, while the other is located more towards the center. A toaster is also present on the counter, situated between the two microwaves.\n\nIn addition to the appliances, there are a few bottles scattered around the counter. One bottle is located near the left side of the counter, another is placed closer to the center, and the third bottle is situated towards the right side. A cup can be seen on the counter as well, positioned near the right edge."
+  },
+  {
+    "image_id": 42,
+    "path": "../data/visual_genome/images/VG_100K/42.jpg",
+    "text": "The image depicts a large, open room with a blue carpet and blue walls. The room is furnished with numerous chairs, arranged in various positions throughout the space. Some chairs are placed closer to the walls, while others are situated in the center of the room.\n\nIn addition to the chairs, there is a refrigerator located towards the right side of the room, and a TV mounted on the wall in the upper left corner. The room appears to be a versatile space, possibly used for meetings or gatherings."
+  },
+  {
+    "image_id": 43,
+    "path": "../data/visual_genome/images/VG_100K/43.jpg",
+    "text": "The image features a kitchen counter with a blue toaster oven prominently placed on it. A television is mounted on the wall above the toaster oven, playing a show. The kitchen counter also has a bowl and a cup, as well as a chair nearby.\n\nThere are three people in the scene, with one person standing close to the left side of the counter, another person in the middle, and the third person on the right side. The presence of these individuals suggests that they might be watching the show together or engaging in conversation while in the kitchen."
+  },
+  {
+    "image_id": 44,
+    "path": "../data/visual_genome/images/VG_100K/44.jpg",
+    "text": "The image depicts a large classroom with a whiteboard at the front. The room is filled with numerous grey chairs, arranged in rows, creating a comfortable and organized learning environment. The chairs are placed throughout the room, with some closer to the front and others further back. The whiteboard is visible in the center of the room, ready for use during presentations or lessons."
+  },
+  {
+    "image_id": 45,
+    "path": "../data/visual_genome/images/VG_100K/45.jpg",
+    "text": "The image depicts a busy city street filled with traffic. There are several cars driving down the street, with some positioned closer to the camera and others further away. A truck can also be seen among the traffic. The street is lined with tall buildings, creating an urban atmosphere.\n\nTraffic lights are present at various points along the street, ensuring the smooth flow of traffic. The scene captures the hustle and bustle of city life, with vehicles navigating through the congested streets."
+  },
+  {
+    "image_id": 46,
+    "path": "../data/visual_genome/images/VG_100K/46.jpg",
+    "text": "The image depicts a busy city street with a taxi cab driving down the road. The taxi is located in the foreground, and there are several other cars in the scene, including one behind the taxi and another further down the street.\n\nA large department store, Charriol Tangsgug, is visible on the street, attracting shoppers and contributing to the bustling atmosphere. The store is situated on the right side of the street, and its presence adds to the urban setting."
+  },
+  {
+    "image_id": 47,
+    "path": "../data/visual_genome/images/VG_100K/47.jpg",
+    "text": "The image depicts a busy city street filled with traffic, including cars, buses, and trucks. There are multiple traffic lights in the scene, ensuring the smooth flow of traffic. A man is standing on the sidewalk, holding an umbrella to protect himself from the rain. \n\nSeveral pedestrians can be seen walking along the sidewalk, some of them carrying backpacks. A fire hydrant is also visible on the sidewalk, adding to the urban atmosphere. The street is bustling with activity, showcasing the hustle and bustle of city life."
+  },
+  {
+    "image_id": 48,
+    "path": "../data/visual_genome/images/VG_100K/48.jpg",
+    "text": "The image depicts a bustling city street filled with people walking and taxis driving. There are several people walking on the sidewalk, some carrying backpacks and handbags. A man in a striped shirt is walking down the street, and another man is carrying a backpack.\n\nThere are multiple taxis parked along the street, with one taxi in the foreground and others further down the street. A fire hydrant can be seen on the sidewalk, and a traffic light is visible in the background. The scene captures the lively atmosphere of a busy city street."
+  },
+  {
+    "image_id": 49,
+    "path": "../data/visual_genome/images/VG_100K/49.jpg",
+    "text": "The image depicts a bustling city street filled with people walking down the sidewalk. There are numerous individuals, some carrying handbags and backpacks, as they navigate the busy urban environment. \n\nThe street is lined with tall buildings, and traffic lights can be seen at various points along the sidewalk. A potted plant is placed on the sidewalk, adding a touch of greenery to the urban setting.\n\nVarious vehicles, including cars and a truck, are parked or moving along the street, contributing to the overall hustle and bustle of the city."
+  },
+  {
+    "image_id": 50,
+    "path": "../data/visual_genome/images/VG_100K/50.jpg",
+    "text": "The image depicts a cluttered office desk with various items scattered across its surface. There is a coffee mug placed near the center of the desk, and a remote control is located towards the right side. A stack of books can be seen on the left side of the desk, while a CD is placed closer to the left edge.\n\nIn addition to these items, there are several papers and documents scattered around the desk, indicating a busy work environment. A lamp is situated on the left side of the desk, providing light to the workspace."
+  },
+  {
+    "image_id": 51,
+    "path": "../data/visual_genome/images2/VG_100K_2/51.jpg",
+    "text": "The image features a man and two young boys in a small boat, floating on a river. The man is standing in the boat, while the two boys are sitting in the back. The boat appears to be a canoe, and the family seems to be enjoying their time together on the water."
+  },
+  {
+    "image_id": 52,
+    "path": "../data/visual_genome/images2/VG_100K_2/52.jpg",
+    "text": "The image depicts a serene scene of a canal running through a small town. Several boats are floating along the waterway, with some of them docked at the pier. The boats vary in size and are scattered throughout the canal.\n\nIn addition to the boats, there are a few cars parked along the waterfront, and a couple of people can be seen enjoying the view. The town features a mix of residential and commercial buildings, creating a picturesque atmosphere."
+  },
+  {
+    "image_id": 53,
+    "path": "../data/visual_genome/images2/VG_100K_2/53.jpg",
+    "text": "The image depicts a city street at night, with a payphone situated on the sidewalk. The payphone is surrounded by various bicycles, indicating that it is a popular spot for cyclists to park and use the phone. \n\nIn addition to the bicycles, there are several motorcycles parked along the street, as well as a car parked further down the road. A bench can be seen nearby, providing a place for people to sit and relax. The scene captures the essence of a bustling urban environment at night."
+  },
+  {
+    "image_id": 54,
+    "path": "../data/visual_genome/images2/VG_100K_2/54.jpg",
+    "text": "The image depicts a busy street scene with a red car stopped at a traffic light. There are several people walking around the area, with some of them carrying handbags. One person is walking past the car, while others are walking in the opposite direction.\n\nIn addition to the pedestrians, there are two bicycles parked on the sidewalk, and a couple of potted plants can be seen nearby. A stop sign is also visible in the scene, indicating the presence of an intersection."
+  },
+  {
+    "image_id": 55,
+    "path": "../data/visual_genome/images2/VG_100K_2/55.jpg",
+    "text": "The image depicts a busy street scene with a blue and white bus parked on the side of the road. Several people are walking along the sidewalk, with some carrying handbags and backpacks. There are also bicycles and a motorcycle parked nearby.\n\nIn addition to the pedestrians, there are two bicycles and a motorcycle parked on the side of the road. A few handbags and backpacks can be seen among the pedestrians, indicating that they might be carrying their belongings while walking. The overall atmosphere of the scene is lively and bustling."
+  },
+  {
+    "image_id": 56,
+    "path": "../data/visual_genome/images2/VG_100K_2/56.jpg",
+    "text": "The image features a red and white city bus parked on the side of a street, likely at a bus stop. The bus is positioned near a building, and there are several potted plants placed along the sidewalk. \n\nIn addition to the bus, there are multiple people in the scene, some of whom are standing near the bus stop, while others are walking along the sidewalk. A handbag can also be seen on the ground, possibly belonging to one of the pedestrians."
+  },
+  {
+    "image_id": 57,
+    "path": "../data/visual_genome/images2/VG_100K_2/57.jpg",
+    "text": "The image depicts a busy city street with a silver car driving down the road. A man in a suit is crossing the street in front of the car, while several other people are walking around the area. Some of them are carrying handbags, and one person is holding a cell phone.\n\nThe street is lined with tall buildings, and there are potted plants placed along the sidewalk. A fire hydrant can be seen on the side of the road, and a traffic light is visible further down the street. The scene captures the hustle and bustle of city life."
+  },
+  {
+    "image_id": 58,
+    "path": "../data/visual_genome/images2/VG_100K_2/58.jpg",
+    "text": "The image depicts a lively street scene with several people walking and engaging in various activities. There are at least nine people visible in the scene, some of them carrying handbags or backpacks. A man is talking on his cell phone, while others are walking or standing around.\n\nThe street is lined with several dining tables and chairs, indicating that the area is a popular spot for people to gather and enjoy their meals. There are at least five dining tables and nine chairs visible in the scene. The presence of these tables and chairs suggests that the street is a bustling area with a variety of restaurants and cafes."
+  },
+  {
+    "image_id": 59,
+    "path": "../data/visual_genome/images2/VG_100K_2/59.jpg",
+    "text": "The image depicts a busy city street with various vehicles and pedestrians. There are multiple cars, including a silver car parked near the center of the scene, and a black car on the left side of the street. A motorcycle is also visible on the right side of the street.\n\nSeveral people can be seen walking along the street, with some closer to the center and others near the edges of the scene. A person is standing near a scooter parked on the right side of the street.\n\nIn the background, there is a building with a large sign, possibly an advertisement or a business name. The overall atmosphere of the scene is bustling and lively."
+  },
+  {
+    "image_id": 60,
+    "path": "../data/visual_genome/images2/VG_100K_2/60.jpg",
+    "text": "The image features a row of three motor scooters parked along a brick sidewalk. The scooters are parked in a neat line, with one on the left, another in the middle, and the third on the right side of the sidewalk. The scooters are parked close to a building, possibly a shop or a residential building."
+  },
+  {
+    "image_id": 61,
+    "path": "../data/visual_genome/images2/VG_100K_2/61.jpg",
+    "text": "The image depicts a man walking down a sidewalk next to a row of parked cars. There are several cars parked along the street, with some closer to the foreground and others further back. A trash can is also visible on the sidewalk, adding to the urban setting.\n\nIn addition to the cars, there are a few other people in the scene, with one person standing near the center of the image and another person closer to the right side. A traffic light can be seen in the background, indicating that the scene takes place in an area with traffic regulations."
+  },
+  {
+    "image_id": 62,
+    "path": "../data/visual_genome/images2/VG_100K_2/62.jpg",
+    "text": "The image features a small, beige car parked on a city street. The car is positioned near the center of the scene, and it appears to be a compact vehicle. There are several people in the area, with some standing close to the car and others further away.\n\nIn addition to the car, there are multiple potted plants placed along the street, adding a touch of greenery to the urban environment. A traffic light can be seen in the background, indicating that the car is parked in a regulated parking zone."
+  },
+  {
+    "image_id": 63,
+    "path": "../data/visual_genome/images2/VG_100K_2/63.jpg",
+    "text": "The image features a wooden dining table set for a meal. The table is adorned with white plates, forks, knives, and spoons, creating an elegant and inviting atmosphere. There are four forks, four knives, and four spoons placed on the table, each accompanied by a white plate. \n\nIn addition to the tableware, there are two wine glasses on the table, one near the top left corner and the other near the top right corner. A bottle can be seen in the background, possibly containing a beverage to accompany the meal."
+  },
+  {
+    "image_id": 64,
+    "path": "../data/visual_genome/images2/VG_100K_2/64.jpg",
+    "text": "The image features a woman standing in a plaza, surrounded by benches and potted plants. She is positioned near the center of the scene, and there are several benches placed around her, with some closer to the foreground and others further back. \n\nIn addition to the benches, there are multiple potted plants dispersed throughout the plaza, adding a touch of greenery to the area. The woman appears to be enjoying her time in the plaza, possibly admiring the nearby windmill or the urban setting."
+  },
+  {
+    "image_id": 65,
+    "path": "../data/visual_genome/images2/VG_100K_2/65.jpg",
+    "text": "The image depicts a busy city street filled with various vehicles, including cars, trucks, and a bus. A white Fiat is parked on the side of the road, surrounded by other cars. There is a mix of vehicles, some parked and others in motion.\n\nSeveral people can be seen walking or standing on the sidewalk, with some of them carrying handbags. Traffic lights are visible at different points along the street, ensuring the smooth flow of traffic.\n\nOverall, the scene captures the hustle and bustle of a typical city street, with people going about their daily routines and vehicles navigating the busy roads."
+  },
+  {
+    "image_id": 66,
+    "path": "../data/visual_genome/images2/VG_100K_2/66.jpg",
+    "text": "The image features a small TV placed on a black stand in a living room. The TV is displaying a football game, with players actively participating in the match. The room also contains a collection of books, with some placed on the floor and others on shelves. \n\nIn addition to the books, there are two remote controls visible in the scene, one near the TV and the other further away. A sports ball can be seen in the room, possibly used for playing games or practicing sports."
+  },
+  {
+    "image_id": 67,
+    "path": "../data/visual_genome/images2/VG_100K_2/67.jpg",
+    "text": "The image showcases a large, well-equipped kitchen with marble countertops. The kitchen features a center island with a marble countertop, providing ample space for food preparation and dining. The kitchen is also equipped with a microwave, oven, and sink, making it a functional and modern space.\n\nThere are several bottles placed around the kitchen, with some on the countertops and others on the shelves. Additionally, there are multiple apples scattered throughout the kitchen, adding a touch of color and freshness to the scene. A bowl can be seen on the countertop, possibly containing ingredients or leftovers."
+  },
+  {
+    "image_id": 68,
+    "path": "../data/visual_genome/images2/VG_100K_2/68.jpg",
+    "text": "The image features a wooden entertainment center with a television on top. The TV is positioned towards the center of the scene, and there are two remotes placed nearby, one on the left side and the other on the right side of the TV. \n\nIn addition to the TV, there are two DVD players on the entertainment center. One is located on the left side, while the other is on the right side. A person can be seen in the background, possibly watching the television or engaging in other activities."
+  },
+  {
+    "image_id": 69,
+    "path": "../data/visual_genome/images2/VG_100K_2/69.jpg",
+    "text": "The image features a wooden dining table with a white plate placed on it. The plate is filled with a delicious meal consisting of grilled chicken, potatoes, and cauliflower. The chicken is the main focus of the plate, with the potatoes and cauliflower surrounding it. The arrangement of the food items creates a visually appealing and appetizing presentation."
+  },
+  {
+    "image_id": 70,
+    "path": "../data/visual_genome/images2/VG_100K_2/70.jpg",
+    "text": "The image depicts a group of people gathered in a lobby, waiting for their luggage. There are several people standing around, with some of them closer to the foreground and others further back. A few individuals are sitting on chairs, while others are standing.\n\nThere are multiple suitcases and handbags scattered throughout the scene, indicating that the group is likely waiting for their luggage to arrive. The chairs are placed in various positions, with some closer to the foreground and others further back. The overall atmosphere suggests a busy and bustling environment."
+  },
+  {
+    "image_id": 71,
+    "path": "../data/visual_genome/images2/VG_100K_2/71.jpg",
+    "text": "The image depicts a group of women working together in a factory setting. They are seated at long tables, each focused on their tasks. There are at least nine women in the scene, with some sitting closer to the front and others further back.\n\nThe women are using various tools and equipment, such as scissors, a knife, and a pair of pliers. There are also several bottles placed around the workspace, likely containing tools or materials. The overall atmosphere of the scene suggests a collaborative and productive environment."
+  },
+  {
+    "image_id": 72,
+    "path": "../data/visual_genome/images2/VG_100K_2/72.jpg",
+    "text": "The image depicts a group of people sitting around a large dining table, enjoying a meal together. There are several people seated on chairs, with some of them smiling and posing for the camera. The table is filled with various food items, including sandwiches, wine glasses, cups, and a bottle.\n\nThe table is set with multiple forks, knives, and spoons, as well as a few bowls. There are also a couple of cakes placed on the table, adding to the festive atmosphere. The scene appears to be a gathering of friends or family members, sharing a meal and enjoying each other's company."
+  },
+  {
+    "image_id": 73,
+    "path": "../data/visual_genome/images2/VG_100K_2/73.jpg",
+    "text": "The image features a group of people sitting around a dining table, posing for a picture. There are at least 13 people in the scene, with some sitting closer to the camera and others further away. The table is set with various items, including wine glasses, cups, forks, knives, and spoons. \n\nThere are multiple wine glasses placed around the table, with some closer to the foreground and others further back. Cups can be seen in different areas of the table, and a few forks and knives are also visible. A handbag is placed on the floor near the table, and a bottle is located on the table as well.\n\nThe atmosphere appears to be social and friendly, with everyone enjoying their time together."
+  },
+  {
+    "image_id": 74,
+    "path": "../data/visual_genome/images2/VG_100K_2/74.jpg",
+    "text": "The image depicts a cozy bar scene with a large flat-screen TV mounted on the wall. The TV is displaying a sports event, likely a cricket match. The bar is filled with numerous chairs and dining tables, creating a comfortable atmosphere for patrons to enjoy their drinks and watch the game.\n\nThere are several people in the bar, some of them seated on chairs and others standing or walking around. The bar also features a refrigerator and a few bottles, indicating that it is well-stocked for its guests. The overall ambiance of the bar is inviting and perfect for socializing and watching sports events."
+  },
+  {
+    "image_id": 75,
+    "path": "../data/visual_genome/images2/VG_100K_2/75.jpg",
+    "text": "The image showcases a spacious and well-equipped galley kitchen on a boat. The kitchen features a sink on the left side, a refrigerator on the right side, and a dining table in the middle. The table is surrounded by several chairs, providing ample seating for meals.\n\nVarious items can be seen throughout the kitchen, such as a wine glass, a cup, a bottle, and a bowl. There are also two knives placed on the countertop, and a laptop is visible on the right side of the kitchen. The overall atmosphere of the kitchen is inviting and comfortable, making it an ideal space for enjoying meals and socializing while on the boat."
+  },
+  {
+    "image_id": 76,
+    "path": "../data/visual_genome/images2/VG_100K_2/76.jpg",
+    "text": "The image depicts a classroom with a large whiteboard on the wall, which is filled with writing. The room is furnished with multiple desks and chairs, arranged in rows. There are at least 12 chairs and 10 desks in the room, providing ample seating and workspace for students.\n\nThe classroom also features a dining table, which is located towards the right side of the room. The overall atmosphere of the classroom suggests a well-equipped and organized learning environment."
+  },
+  {
+    "image_id": 77,
+    "path": "../data/visual_genome/images2/VG_100K_2/77.jpg",
+    "text": "The image depicts a group of people working on computers in a library setting. There are five people in the scene, with some sitting at tables and others standing. They are all focused on their tasks, with some using laptops and others using desktop computers.\n\nThe library is well-equipped with numerous chairs and tables scattered throughout the space. There are also several books placed on the tables and shelves, indicating that the library is a place for both work and study. A backpack can be seen on the floor, likely belonging to one of the individuals in the library."
+  },
+  {
+    "image_id": 78,
+    "path": "../data/visual_genome/images2/VG_100K_2/78.jpg",
+    "text": "The image features a room with a long table filled with various computer monitors and keyboards. There are at least 12 computer monitors placed on the table, with some of them being white and others being colorful. The keyboards are also spread across the table, with at least 10 visible.\n\nIn addition to the computers, there are several chairs placed around the table, with at least 10 chairs visible. The room appears to be a computer lab or a workspace, with the monitors and keyboards arranged for easy access and use."
+  },
+  {
+    "image_id": 79,
+    "path": "../data/visual_genome/images2/VG_100K_2/79.jpg",
+    "text": "The image showcases a cozy cabin-style living room with wooden walls and floors. The room features a large wooden dining table surrounded by multiple chairs, providing ample seating for guests. The dining area is adorned with a blue couch and a fireplace, creating a warm and inviting atmosphere.\n\nIn addition to the dining area, there is a kitchen area with a refrigerator and an oven. A vase can be seen on a surface, adding a decorative touch to the room. The living room is well-lit, with natural light coming through the windows, making the space feel bright and welcoming."
+  },
+  {
+    "image_id": 80,
+    "path": "../data/visual_genome/images2/VG_100K_2/80.jpg",
+    "text": "The image features a clean and well-organized kitchen with wooden cabinets and a green countertop. The kitchen is equipped with a white stove, a sink, and a microwave. There is a red rug on the floor, adding a pop of color to the space.\n\nVarious kitchen items can be seen, such as a coffee maker, a kettle, a toaster, and a cup. A spoon is also present on the countertop. The overall atmosphere of the kitchen is tidy and inviting."
+  },
+  {
+    "image_id": 81,
+    "path": "../data/visual_genome/images2/VG_100K_2/81.jpg",
+    "text": "The image showcases a clean and well-organized kitchen with wooden cabinets and a window above the sink. The kitchen is equipped with a stove, oven, dishwasher, and a sink. There is a microwave placed above the stove, and a refrigerator is located on the right side of the kitchen.\n\nThe kitchen is also equipped with a window above the sink, which allows natural light to enter the space. The appliances and cabinets are neatly arranged, creating a functional and inviting atmosphere."
+  },
+  {
+    "image_id": 82,
+    "path": "../data/visual_genome/images2/VG_100K_2/82.jpg",
+    "text": "The image showcases a well-equipped kitchen with red countertops and white cabinets. The kitchen features a stainless steel refrigerator on the right side, an oven in the middle, and a sink on the left side. There is also a washing machine in the room, likely for laundry purposes.\n\nVarious kitchen utensils and appliances can be seen throughout the space. A knife set is placed on the countertop, and a toaster is located near the sink. A microwave is situated above the oven, and a coffee maker is placed on the countertop. A bowl is also visible on the countertop, likely used for food preparation."
+  },
+  {
+    "image_id": 83,
+    "path": "../data/visual_genome/images2/VG_100K_2/83.jpg",
+    "text": "The image depicts a group of people sitting at a long wooden table, working on their computers. There are several chairs placed around the table, with some people sitting on them while others stand. The table is filled with numerous books, indicating that the people might be studying or working on a project together.\n\nIn addition to the people and books, there are a few other items in the scene. A backpack can be seen placed on the floor, and a handbag is located near the table. A TV is mounted on the wall, and a keyboard is placed on the table. A chair is also visible in the background, suggesting that the room is designed for group work or study."
+  },
+  {
+    "image_id": 84,
+    "path": "../data/visual_genome/images2/VG_100K_2/84.jpg",
+    "text": "The image depicts a cozy living room with a large couch and a glass table. The couch is situated in the center of the room, and a vase filled with flowers is placed on the table, adding a touch of elegance to the space. \n\nThere are several books scattered around the room, indicating a reading-friendly environment. Additionally, two wine glasses are placed on the table, suggesting that the room is also a place for relaxation and socializing. A potted plant can be seen in the room, adding a touch of greenery to the space."
+  },
+  {
+    "image_id": 85,
+    "path": "../data/visual_genome/images2/VG_100K_2/85.jpg",
+    "text": "The image showcases a cozy living space on a boat, featuring a comfortable couch and a chair. A television is mounted on the wall, providing entertainment for the occupants. The room also contains a dining table with a potted plant nearby, adding a touch of greenery to the space.\n\nThere are several decorative elements in the room, including vases and potted plants. One vase is placed on the dining table, while another is located near the couch. Two potted plants can be seen in the room, one near the couch and the other near the television. Additionally, there are two apples on the dining table, adding a touch of freshness to the scene."
+  },
+  {
+    "image_id": 86,
+    "path": "../data/visual_genome/images2/VG_100K_2/86.jpg",
+    "text": "The image depicts a crowded subway train with numerous passengers sitting and standing in the aisles. The train is filled with people, some of whom are reading books or using their cell phones. There are several chairs and benches placed throughout the train, providing seating options for the passengers.\n\nVarious personal belongings can be seen among the passengers, such as handbags, backpacks, and a bottle. The passengers are engaged in their activities, creating a lively atmosphere inside the train."
+  },
+  {
+    "image_id": 87,
+    "path": "../data/visual_genome/images2/VG_100K_2/87.jpg",
+    "text": "The image depicts a group of people enjoying a sunny day at a river, surrounded by lush green trees. Many of the individuals are sitting or standing near the water, while others are swimming or wading in the river. There are at least 14 people visible in the scene, with some closer to the water and others further away.\n\nA few backpacks can be seen placed on the ground, likely belonging to the people in the area. The overall atmosphere appears to be relaxed and leisurely, as people take advantage of the beautiful outdoor setting."
+  },
+  {
+    "image_id": 88,
+    "path": "../data/visual_genome/images2/VG_100K_2/88.jpg",
+    "text": "The image depicts a cozy living room with a fireplace as the focal point. The room is furnished with a couch, a chair, and a glass coffee table. There are two potted plants in the room, one near the couch and the other near the chair. \n\nA collection of books can be seen on a bookshelf, adding to the room's warm and inviting atmosphere. A vase is placed on the coffee table, and a clock hangs on the wall. The living room is adorned with curtains on the windows, enhancing the overall aesthetic of the space."
+  },
+  {
+    "image_id": 89,
+    "path": "../data/visual_genome/images2/VG_100K_2/89.jpg",
+    "text": "The image features a cozy living room with a black leather couch situated in the center of the room. A television is mounted on the wall, and a keyboard is placed on a desk nearby. The room also contains a red radio and a vase with flowers, adding a touch of elegance to the space.\n\nIn addition to the main furniture, there is a chair positioned towards the left side of the room. A remote control can be seen on the couch, likely for the television. A book is also present in the room, placed on the desk. The overall atmosphere of the living room is inviting and comfortable."
+  },
+  {
+    "image_id": 90,
+    "path": "../data/visual_genome/images2/VG_100K_2/90.jpg",
+    "text": "The image showcases a spacious living room with a black couch and a dining table. The living room is connected to a kitchen area, featuring a refrigerator, an oven, and a sink. A bicycle is parked in the room, adding a unique touch to the space.\n\nVarious bottles can be seen scattered throughout the room, possibly indicating that the residents enjoy drinking or entertaining guests. A remote control is placed on the couch, suggesting that the residents often watch television or use other electronic devices."
+  },
+  {
+    "image_id": 91,
+    "path": "../data/visual_genome/images2/VG_100K_2/91.jpg",
+    "text": "The image depicts a cozy living room with two brown leather couches, one on the left side and the other on the right side of the room. A chair is also present in the room, located near the right couch. The living room is furnished with a dining table and chairs, with one chair placed near the table and another chair situated further back in the room.\n\nThere are several books scattered around the room, with some placed on the dining table and others on the couches. A towel is hanging on one of the couches, adding a touch of comfort to the space. A bowl can be seen on the dining table, possibly containing snacks or refreshments for the occupants."
+  },
+  {
+    "image_id": 92,
+    "path": "../data/visual_genome/images2/VG_100K_2/92.jpg",
+    "text": "The image features a dining table with a variety of food items and utensils. On the table, there is a bowl filled with granola and blueberries, accompanied by bananas. A cup is also present on the table, likely containing a beverage. \n\nSeveral utensils are scattered around the table, including a knife, a spoon, and a fork. Additionally, there are two bottles on the table, one near the top left corner and the other near the top right corner. The table setting creates a pleasant and inviting atmosphere for a meal."
+  },
+  {
+    "image_id": 93,
+    "path": "../data/visual_genome/images2/VG_100K_2/93.jpg",
+    "text": "The image features a dining table set for a meal. The table is adorned with a variety of wine glasses, some placed closer to the center and others scattered around the table. There are also several cups and bowls on the table, adding to the elegant presentation.\n\nIn addition to the wine glasses, there are forks and knives laid out for the guests. The table is also set with a vase, which adds a decorative touch to the overall ambiance. Chairs are positioned around the table, ready for the guests to be seated and enjoy their meal."
+  },
+  {
+    "image_id": 94,
+    "path": "../data/visual_genome/images2/VG_100K_2/94.jpg",
+    "text": "The image features a red plate filled with a delicious salad, including shrimp, grapes, and oranges. The salad is accompanied by a drink in a glass, which is placed on the table next to the plate. The plate is set on a dining table, and a fork can be seen on the left side of the plate. The combination of fresh fruits and shrimp creates a visually appealing and nutritious meal."
+  },
+  {
+    "image_id": 95,
+    "path": "../data/visual_genome/images2/VG_100K_2/95.jpg",
+    "text": "The image features a dining table set for a meal, with a variety of tableware and glassware arranged on it. There are four wine glasses placed around the table, with one on each side and two at the ends. Additionally, there are four forks and four knives laid out, indicating that the table is prepared for a group of people to enjoy a meal together.\n\nA bottle of wine is also present on the table, adding to the ambiance of the dining experience. The table is adorned with a white tablecloth, and a name tag is placed on the table, suggesting that the guests may be attending a special event or gathering."
+  },
+  {
+    "image_id": 96,
+    "path": "../data/visual_genome/images2/VG_100K_2/96.jpg",
+    "text": "The image features a beautifully decorated living room with a piano in the background. A dining table is situated in the room, adorned with a plate of food and a cup. A chair is placed near the table, and a potted plant can be seen in the room, adding to the ambiance.\n\nIn addition to the main elements, there are two forks on the table, a spoon, and a knife. A bottle is also visible on the table, possibly containing a beverage to accompany the meal. The room is well-lit, creating a warm and inviting atmosphere."
+  },
+  {
+    "image_id": 97,
+    "path": "../data/visual_genome/images2/VG_100K_2/97.jpg",
+    "text": "The image features a dining table with various food items and utensils spread out on it. There are two slices of bread on plates, and a knife is placed next to them. A cup can be seen on the table as well.\n\nIn addition to the food and utensils, there are several items on the table, including a bowl, a spoon, a fork, and a couple of bottles. A cup is also present on the table. The scene appears to be a casual meal setup, with the table being the central focus."
+  },
+  {
+    "image_id": 98,
+    "path": "../data/visual_genome/images2/VG_100K_2/98.jpg",
+    "text": "The image features a wooden dining table with various food items and utensils. A large pizza is prominently displayed on the table, accompanied by a smaller pizza slice placed on a white plate. There are also two sandwiches on the table, one near the center and the other towards the right side.\n\nSeveral utensils are scattered across the table, including a fork, two knives, and two spoons. Additionally, there are two cups, one near the left edge of the table and the other closer to the center. A bottle can be seen on the left side of the table, and a bowl is located near the top right corner. A chair is positioned at the left side of the table, ready for someone to sit and enjoy the meal."
+  },
+  {
+    "image_id": 99,
+    "path": "../data/visual_genome/images2/VG_100K_2/99.jpg",
+    "text": "The image depicts a large dining room with a long table set for a formal dinner. The table is adorned with multiple wine glasses, forks, knives, and spoons, all neatly arranged. There are several chairs placed around the table, ready for guests to be seated.\n\nIn addition to the main dining table, there are two smaller dining tables visible in the room. One of the smaller tables is located near the center of the room, while the other is situated closer to the left side.\n\nThe dining room also features a doorway, which adds to the overall ambiance of the space."
+  },
+  {
+    "image_id": 100,
+    "path": "../data/visual_genome/images2/VG_100K_2/100.jpg",
+    "text": "The image features a green Xbox gaming console sitting on a table next to a television. The television is displaying information about the Halo Campaign game, likely providing details about the game's features and gameplay. \n\nTwo game controllers are placed on the table, one closer to the left side and the other towards the right side. A keyboard can also be seen on the table, positioned near the right side of the console. The scene suggests a gaming setup, with the television and controllers ready for use."
+  }
+]
