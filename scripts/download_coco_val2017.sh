@@ -20,5 +20,5 @@ echo "Removing zip files..."
 rm -f val2017.zip annotations_trainval2017.zip
 
 echo "Done."
-echo "Images:      data/coco/val2017/"
-echo "Annotations: data/coco/annotations/"
+echo "Images:      data/coco2017/val2017/"
+echo "Annotations: data/coco2017/annotations/"
