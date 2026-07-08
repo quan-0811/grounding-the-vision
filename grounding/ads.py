@@ -102,19 +102,23 @@ def spatial_entropy(
 def compute_ads_from_attention_map(
     attn_map_2d: torch.Tensor,
     foreground_ratio: float = 0.10,
+    min_component_size: int = 3,
     eps: float = 1e-8,
 ) -> float:
     """
-    Compute ADS-style attention dispersion score.
+    Compute ADS (Attention Dispersion Score) following Nguyen et al.
 
-    ADS(A) = (1 - m_foreground) * H_background
-
+    Given an aggregated continuous attention map Ā_o:
     Args:
         attn_map_2d:
-            Tensor with shape [H, W].
+            Aggregated attention map with shape [H, W].
 
         foreground_ratio:
-            Top-ratio attention mass treated as foreground.
+            Top ratio of activated patches treated as foreground candidates
+            (empirically x = 0.10).
+
+        min_component_size:
+            Minimum component area to retain after grouping.
 
     Returns:
         ADS score. Lower is more compact.
@@ -123,34 +127,54 @@ def compute_ads_from_attention_map(
     attn_map_2d = attn_map_2d.detach().float().cpu()
     attn_map_2d = torch.clamp(attn_map_2d, min=0)
 
-    flat = attn_map_2d.flatten()
-    total = flat.sum()
+    attn_np = attn_map_2d.numpy()
+    H, W = attn_np.shape
+    num_patches = H * W
 
-    if float(total.item()) <= eps:
+    flat = attn_np.flatten()
+    total = float(flat.sum())
+
+    if total <= eps:
         return float("inf")
 
-    probs = flat / (total + eps)
+    threshold = np.percentile(flat, 100.0 * (1.0 - foreground_ratio))
+    binary = (flat >= threshold).reshape(H, W).astype(np.int32)
 
-    num_tokens = probs.numel()
-    top_k = max(1, int(np.ceil(foreground_ratio * num_tokens)))
+    if not binary.any():
+        foreground_mass = 0.0
+        # All patches are background
+        probs = flat / (total + eps)
+        entropy = -float(np.sum(probs * np.log(probs + eps)))
+        background_entropy = entropy / float(np.log(max(num_patches, 2)))
+        return float((1.0 - foreground_mass) * background_entropy)
 
-    _, top_indices = torch.topk(probs, k=top_k)
+    labeled_array, num_components = label(
+        binary,
+        structure=np.ones((3, 3), dtype=np.int32),
+    )
 
-    foreground_mask = torch.zeros_like(probs, dtype=torch.bool)
-    foreground_mask[top_indices] = True
+    valid_components: set[int] = set()
+    for comp_id in range(1, num_components + 1):
+        area = int(np.sum(labeled_array == comp_id))
+        if area >= min_component_size:
+            valid_components.add(comp_id)
 
+    foreground_mask = np.zeros((H, W), dtype=bool)
+    for comp_id in valid_components:
+        foreground_mask[labeled_array == comp_id] = True
     background_mask = ~foreground_mask
 
-    foreground_mass = float(probs[foreground_mask].sum().item())
+    foreground_mass = float(attn_np[foreground_mask].sum())
 
-    background_probs = probs[background_mask]
+    background_attn = attn_np[background_mask]
+    background_sum = float(background_attn.sum())
 
-    if background_probs.numel() == 0 or float(background_probs.sum().item()) <= eps:
+    if background_sum <= eps or background_attn.size == 0:
         background_entropy = 0.0
     else:
-        background_probs = background_probs / (background_probs.sum() + eps)
-        entropy = -torch.sum(background_probs * torch.log(background_probs + eps))
-        background_entropy = float(entropy.item()) / float(np.log(max(num_tokens, 2)))
+        E_o = background_attn / (background_sum + eps)
+        entropy = -float(np.sum(E_o * np.log(E_o + eps)))
+        background_entropy = entropy / float(np.log(max(num_patches, 2)))
 
     ads = (1.0 - foreground_mass) * background_entropy
 
@@ -166,13 +190,17 @@ def compute_ads_from_step(
     attn_sum_threshold: float = 0.49,
 ) -> float:
     """
-    Compute ADS from selected layer-head maps in one PHG decoding step.
+    Compute ADS on the aggregated continuous attention map Ā_o.
+
+    Aggregates the top-N selected layer-head maps by averaging into a single
+    attention map Ā_o, then computes ADS on that aggregated map following the
+    formulation in Section 3.7.5 (Nguyen et al. [94]).
 
     The step must contain:
         step["image_attn_by_layer"][layer_id] = Tensor[num_heads, num_image_tokens]
 
     Returns:
-        Minimum ADS among selected layer-heads.
+        ADS score on the aggregated map. Lower is more compact.
     """
 
     from grounding.attention import get_kept_lh_from_step
@@ -188,7 +216,7 @@ def compute_ads_from_step(
         return float("inf")
 
     image_attn_by_layer = step["image_attn_by_layer"]
-    ads_values = []
+    agg_maps: list[torch.Tensor] = []
 
     for selected in kept[:top_n_heads]:
         layer_id = selected["layer"]
@@ -197,20 +225,34 @@ def compute_ads_from_step(
         image_attn = image_attn_by_layer[layer_id].detach().float().cpu()
         attn_1d = image_attn[head_id]
 
+        # Reject cached-step attention (single-token).
+        if int(attn_1d.numel()) <= 1:
+            continue
+
         attn_2d = image_attn_to_grid(
             attn_1d,
             image_grid_shape=image_grid_shape,
             inputs=inputs,
         )
 
-        ads = compute_ads_from_attention_map(
-            attn_2d,
-            foreground_ratio=foreground_ratio,
-        )
+        attn_2d = attn_2d.detach().float().cpu()
+        attn_2d = torch.clamp(attn_2d, min=0)
 
-        ads_values.append(ads)
+        attn_sum = attn_2d.sum()
 
-    if len(ads_values) == 0:
+        if float(attn_sum.item()) <= 1e-8:
+            continue
+
+        attn_2d = attn_2d / (attn_sum + 1e-8)
+
+        agg_maps.append(attn_2d)
+
+    if len(agg_maps) == 0:
         return float("inf")
 
-    return float(min(ads_values))
+    aggregated: torch.Tensor = torch.stack(agg_maps, dim=0).mean(dim=0)
+
+    return compute_ads_from_attention_map(
+        aggregated,
+        foreground_ratio=foreground_ratio,
+    )

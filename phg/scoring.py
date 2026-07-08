@@ -106,7 +106,7 @@ def score_segment(
             image_grid_shape=config.image_grid_shape,
             inputs=inputs,
             foreground_ratio=config.ads_foreground_ratio,
-            top_n_heads=3,
+            top_n_heads=5,
             attn_sum_threshold=0.49,
         )
 
